@@ -1745,6 +1745,7 @@ hr.invis1 {
     overflow: hidden;
     width: 100%;
     text-align: left;
+    padding: 4px 0 4px 4px;
 }
 
 .bootstrap-select.btn-group .dropdown-toggle .fa-angle-down {
@@ -3353,10 +3354,17 @@ select.mobile-device {
         padding-bottom: 0px !important;
 
     }
+    
+    .footer .widget-title img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 
-
+@media only screen and (max-width: 370px){
+    
+}
 
 .pd-add{
 	padding: 70px 0px;
